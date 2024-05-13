@@ -1,15 +1,15 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:student_management_app_using_provider/screens/widgets/app_bar_widget.dart';
+import 'package:student_management_app_using_provider/view/widgets/app_bar_widget.dart';
 
 // ignore: must_be_immutable
-class DetailsScreen extends StatelessWidget {
+class ScreenDetails extends StatelessWidget {
   String name;
   String age;
   String subject;
   String phone;
   String image;
-  DetailsScreen(
+  ScreenDetails(
       {super.key,
       required this.name,
       required this.age,

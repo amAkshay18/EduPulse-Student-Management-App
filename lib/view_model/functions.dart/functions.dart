@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:student_management_app_using_provider/model/model.dart';
-import 'package:student_management_app_using_provider/screens/add_screen.dart';
-import 'package:student_management_app_using_provider/screens/edit_screen.dart';
+import 'package:student_management_app_using_provider/view/screens/add_screen.dart';
+import 'package:student_management_app_using_provider/view/screens/edit_screen.dart';
 
 void navigateToEditScreen(BuildContext context, StudentModel student, int id,
     int age, String name, String phone, String subject, String img) {

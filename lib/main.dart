@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
-import 'package:student_management_app_using_provider/functions.dart/image_provider.dart';
-import 'package:student_management_app_using_provider/functions.dart/student_provider.dart';
-import 'package:student_management_app_using_provider/screens/home_screen.dart';
+import 'package:student_management_app_using_provider/view/screens/home_screen.dart';
+import 'package:student_management_app_using_provider/view_model/providers/image_provider.dart';
+import 'package:student_management_app_using_provider/view_model/providers/student_provider.dart';
 import 'model/model.dart';
 
 void main() async {

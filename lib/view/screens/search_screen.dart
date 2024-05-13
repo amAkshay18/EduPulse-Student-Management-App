@@ -2,10 +2,10 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:student_management_app_using_provider/functions.dart/functions.dart';
-import 'package:student_management_app_using_provider/functions.dart/student_provider.dart';
-import 'package:student_management_app_using_provider/screens/details_screen.dart';
-import 'package:student_management_app_using_provider/screens/widgets/app_bar_widget.dart';
+import 'package:student_management_app_using_provider/view/screens/details_screen.dart';
+import 'package:student_management_app_using_provider/view/widgets/app_bar_widget.dart';
+import 'package:student_management_app_using_provider/view_model/functions.dart/functions.dart';
+import 'package:student_management_app_using_provider/view_model/providers/student_provider.dart';
 
 class ScreenSearch extends StatelessWidget {
   const ScreenSearch({super.key});
@@ -48,7 +48,7 @@ class ScreenSearch extends StatelessWidget {
                         Navigator.of(context).push(
                           MaterialPageRoute(
                             builder: (context) {
-                              return DetailsScreen(
+                              return ScreenDetails(
                                 name: student.name,
                                 age: student.age.toString(),
                                 subject: student.subject,

@@ -2,10 +2,10 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
-import 'package:student_management_app_using_provider/functions.dart/image_provider.dart';
-import 'package:student_management_app_using_provider/functions.dart/student_provider.dart';
 import 'package:student_management_app_using_provider/model/model.dart';
-import 'package:student_management_app_using_provider/screens/widgets/app_bar_widget.dart';
+import 'package:student_management_app_using_provider/view/widgets/app_bar_widget.dart';
+import 'package:student_management_app_using_provider/view_model/providers/image_provider.dart';
+import 'package:student_management_app_using_provider/view_model/providers/student_provider.dart';
 
 // ignore: must_be_immutable
 class StudentEditScreen extends StatelessWidget {
